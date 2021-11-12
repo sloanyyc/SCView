@@ -34,7 +34,8 @@
 #define MANHATTANSTYLE_H
 
 #include <QStyle>
-#include <QWindowsStyle>
+//#include <QWindowsStyle>
+#include <QCommonStyle>
 
 
 QT_BEGIN_NAMESPACE
@@ -44,7 +45,7 @@ QT_END_NAMESPACE
 
 class ManhattanStylePrivate;
 
-class ManhattanStyle : public QWindowsStyle
+class ManhattanStyle : public QCommonStyle
 {
     Q_OBJECT;
 
